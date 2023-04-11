@@ -27,8 +27,8 @@ button.addEventListener("click", () => {
         })
 });
 
-//selects the HTML element with the ID "new-bean-form" and adds a click event listener to it
-const beautifulBeanButton = document.querySelector("#new-bean-form")
+//selects the HTML element with the ID "beautiful-bean-button" and adds a click event listener to it
+const beautifulBeanButton = document.querySelector("#beautiful-bean-button")
 beautifulBeanButton.addEventListener("click", event => {
     event.preventDefault();
 
